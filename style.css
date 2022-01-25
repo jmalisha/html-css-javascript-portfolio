@@ -43,6 +43,12 @@ body {
   overflow-x: hidden;
   padding-left: 35rem;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 
 section {
   min-height: 100vh;
@@ -319,7 +325,7 @@ header .navbar ul li a:hover {
   background: #3333;
   color: #fff;
   text-transform: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   width: 100%;
 }
 
@@ -351,4 +357,30 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
   padding-right: 1rem;
   color: var(--yellow);
+}
+
+.footer {
+  padding-bottom: 2rem;
+  background: #222;
+  place-items: center;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  padding: 20px;
+}
+.social-icon {
+  color: white;
+  font-size: 20px;
+}
+.footer .social-icon:hover {
+  color: var(--yellow);
+}
+.footer p {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
 }
